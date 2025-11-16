@@ -97,7 +97,7 @@ namespace DiamondSword.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Alpha Filter (min non-transparent fraction).
+        ///   Looks up a localized string similar to Alpha Filter .
         /// </summary>
         public static string Label_AlphaFilter {
             get {

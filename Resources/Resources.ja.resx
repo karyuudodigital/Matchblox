@@ -130,7 +130,7 @@
     <value>アイテムをクリックすると、Minecraft の /give コマンドがクリップボードにコピーされます。</value>
   </data>
   <data name="Label_AlphaFilter" xml:space="preserve">
-    <value>アルファフィルター (最小の非透明率)</value>
+    <value>アルファフィルター </value>
   </data>
   <data name="Label_B" xml:space="preserve">
     <value>B</value>

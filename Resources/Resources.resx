@@ -130,7 +130,7 @@
     <value>Click an item to copy Minecraft /give command to clipboard.</value>
   </data>
   <data name="Label_AlphaFilter" xml:space="preserve">
-    <value>Alpha Filter (min non-transparent fraction)</value>
+    <value>Alpha Filter </value>
   </data>
   <data name="Label_B" xml:space="preserve">
     <value>B</value>

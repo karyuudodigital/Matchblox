@@ -89,9 +89,6 @@ namespace DiamondSword
                 ImportTexturesFromFolder(dlg.SelectedPath);
                 ParseBlockData();
 
-                if (!int.TryParse(TxtAmount.Text, out int amt) || amt > blocks.Count)
-                    TxtAmount.Text = Math.Min(16, Math.Max(1, blocks.Count)).ToString();
-
                 DisplayByRGB();
             }
         }

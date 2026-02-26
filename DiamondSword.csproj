@@ -9,6 +9,8 @@
 	<UseWindowsForms>true</UseWindowsForms>
 	<PackageIcon>favicon.png</PackageIcon>
 	<ApplicationIcon>Resources\favicon.ico</ApplicationIcon>
+	<Platforms>x64</Platforms>
+	<ApplicationManifest>app.manifest</ApplicationManifest>
 
   </PropertyGroup>
 

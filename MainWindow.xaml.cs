@@ -32,12 +32,23 @@ namespace DiamondSword
         }
 
         private readonly List<Block> blocks = [];
-        private readonly string texturesDir = Path.Combine(Directory.GetCurrentDirectory(), "textures");
-        private readonly string blockCfg = Path.Combine(Directory.GetCurrentDirectory(), "blocks.cfg");
+        private readonly string baseDir =
+    Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "DiamondSword");
+
+        private readonly string texturesDir;
+        private readonly string blockCfg;
         private readonly bool textChangedLock = true;
 
         public MainWindow()
         {
+
+            //Initialize paths
+            texturesDir = Path.Combine(baseDir, "textures");
+            blockCfg = Path.Combine(baseDir, "blocks.cfg");
+
+            Directory.CreateDirectory(baseDir);
+            Directory.CreateDirectory(texturesDir);
+
 
             //Thread.CurrentThread.CurrentUICulture = new CultureInfo("ja-JP");
 
